@@ -1,12 +1,10 @@
 import React from 'react'
 import Heroimg from '../assets/hero.jpg'
-import {Link, Element} from 'react-scroll'
 import './Hero.css'
 
 const Hero = () => {
     return (
         <div className='Hero' id='hero'>
-                <Element name="normal" className="hero">
 
          <div className="container-fluid">
          <div className="row">
@@ -29,7 +27,6 @@ const Hero = () => {
          </div>
          </div>
         </div>
-        </Element>
         </div>
     )
 }
