@@ -1,0 +1,102 @@
+.Hero {
+    background-color: #fff;
+}
+
+.Hero .container-fluid {
+    padding: 5% 12%;
+}
+
+
+.Hero h2 {
+    font-family: 'Open Sans';
+    color: #000;
+    font-weight: 800;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.Hero h5 {
+    color: blueviolet;
+    font-family: 'Open Sans';
+
+}
+
+.Hero p {
+    font-family: 'Open Sans';
+font-weight: 500;
+color: gray;
+}
+
+
+.Hero input {
+    font-family: 'Open Sans';
+    border-radius: 25px;
+    width: 60%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    background-color: lightgray;
+    font-weight: 500;
+    border: 1px solid lightgray;
+    text-align:center;
+}
+.Hero input:hover {
+    border: 1px solid lightgray;
+
+}
+
+
+
+.Hero .btn {
+    font-family: 'Open Sans';
+    border-radius: 25px;
+    width: 60%;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.Hero .title-image {
+    width: 99%;
+    right: 30%; 
+    border-radius: 20px;
+}
+
+@media (max-width:1028px) {
+    .Hero {
+      text-align: center;
+    }
+    
+    
+    .Hero h2 {
+
+ font-family: 'Open Sans';
+    color: #000;
+    font-weight: 800;
+    font-size: 2.5rem;
+    line-height: 1.5;    }
+  
+  .Hero .title-image {
+align-items: center;
+    }
+
+    .Hero .btn {
+        font-family: 'Open Sans';
+        border-radius: 25px;
+        width: 100%;
+        margin-bottom: 10px;
+        font-weight: 500;
+    
+    }
+    .Hero input {
+        font-family: 'Open Sans';
+        border-radius: 25px;
+        width: 100%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+        background-color: lightgray;
+        font-weight: 500;
+        border: 1px solid lightgray;
+        text-align:center;
+    }
+  }

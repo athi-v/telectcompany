@@ -1,0 +1,62 @@
+.pricing {
+    padding: 100px;
+    font-family: 'Open Sans';
+    text-align: center;
+  }
+
+  .pricing .title {
+    font-family: 'Open Sans';
+    color: #000;
+    font-weight: 800;
+    font-size: 3.5rem;
+    line-height: 1.5;  }
+
+
+.pricing p {
+  font-family: 'Open Sans';
+  font-weight: 500;
+  color: gray;
+  }
+
+  .pricing h2 {
+    font-family: 'Open Sans';
+    color: #000;
+    font-weight: 800;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    }
+  
+
+
+ .pricing .pricing-column {
+    padding: 3% 2%;
+  }
+
+ .pricing .price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  .pricing .container-fluid {
+    padding: 5% 12%;
+}
+.pricing .btn {
+  font-family: 'Open Sans';
+  border-radius: 25px;
+  width: 60%;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+@media (max-width:1028px) {
+  .pricing {
+    text-align: center;
+  }
+  
+  
+  .pricing .title {
+
+font-family: 'Open Sans';
+  color: #000;
+  font-weight: 800;
+  font-size: 2.5rem;
+  line-height: 1.5;    }}

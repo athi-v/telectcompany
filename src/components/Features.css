@@ -1,0 +1,62 @@
+.features {
+    text-align: center;
+    background-color: rgba(250, 250, 250, 0.76);
+
+}
+
+.features .feature-title {
+  font-family: 'Open Sans';
+  color: #000;
+  font-weight: 800;
+  font-size: 1.5rem;
+  line-height: 1.5;
+    
+  }
+
+  .features .container-fluid {
+    padding: 5% 12%;
+}
+.features h2 {
+  font-family: 'Open Sans';
+  color: #000;
+  font-weight: 800;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.features p {
+  
+  font-family: 'Open Sans';
+  font-weight: 500;
+  color: gray;
+  }
+
+.features .feature-box {
+    padding: 4.5%;
+  }
+
+  .features .icon {
+    color: #0d6efd;
+    margin-bottom: 1rem;
+    font-size: 4em;
+  }
+
+  .features .icon:hover {
+    color: blue;
+  }
+
+  @media (max-width:1028px) {
+    .features {
+      text-align: center;
+    }
+    
+    
+    .features h2 {
+
+ font-family: 'Open Sans';
+    color: #000;
+    font-weight: 800;
+    font-size: 2.5rem;
+    line-height: 1.5;    }
+    }
+  

@@ -1,0 +1,44 @@
+.cta {
+    background-color: rgba(250, 250, 250, 0.76);
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.cta .download-button {
+    margin: 5% 2% 5% 0%;
+    font-family: 'Open Sans'; 
+ }
+
+ .cta .container-fluid {
+    padding: 7% 15% 7%;
+}
+
+.cta .big-heading {
+    font-family: 'Open Sans';
+    color: #000;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.cta .btn {
+    font-family: 'Open Sans';
+    border-radius: 25px;
+    width: 60%;
+    margin-top: 50px;
+    font-weight: 500;
+}
+
+@media (max-width:1028px) {
+    .cta {
+      text-align: center;
+    }
+    
+    
+    .cta .big-heading {
+
+ font-family: 'Open Sans';
+    color: #000;
+    font-weight: 800;
+    font-size: 2.5rem;
+    line-height: 1.5;    }
+}

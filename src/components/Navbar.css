@@ -1,0 +1,65 @@
+header { 
+    background-color: #fff;
+    list-style-type: none;
+}
+
+header .sticky-top
+{
+  position: sticky;
+  top: 0;
+  height:100%;
+}
+
+header .navbar-brand {
+    color: rgb(67, 67, 68);
+      font-size: 2.5rem;
+      font-family: 'Open Sans';
+      font-weight: 700;
+    }
+
+header span {
+    color: blueviolet;
+    font-weight: 900;
+}
+
+header .navbar-brand:hover {
+    
+    color: darkslategray;
+    cursor: pointer;
+    border:none;
+}
+
+header .list{
+  text-decoration: none;
+  color: lightslategray;
+  font-size: 1.2rem;
+  font-family: 'Open Sans';
+  font-weight: 500;
+  line-height: 2.5rem;
+  cursor: pointer;
+  color: darkslategrey;
+  margin:18px;
+}
+
+header .nav-item {
+  list-style: none;
+}
+header .list:hover {
+   
+color: lightgray;
+}
+
+header .container-fluid {
+  padding: 0% 12%;
+
+}
+
+  @media (max-width:1028px) {
+    header {
+      text-align:left;
+    }
+    header .list {
+            line-height: 4.5rem; }
+  }
+
+  
