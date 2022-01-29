@@ -9,9 +9,10 @@ import Testimonials from './components/Testimonials';
 import Pricing from './components/Pricing';
 import Cta from './components/Cta';
 import Footer from './components/footer'
+
 function App() {
   return (
-    <div>
+    <>
    <Navbar />
    <Hero />
    <Features />
@@ -22,7 +23,7 @@ function App() {
    <Pricing />
    <Cta />
    <Footer />
-    </div>
+    </>
   );
 }
 
